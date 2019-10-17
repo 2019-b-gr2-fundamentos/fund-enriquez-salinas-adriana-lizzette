@@ -29,6 +29,7 @@ let sueldo = 0;
 // var edad = Integer = 30; -> kotlin Mutable
 // val edad = Integer = 30; -> kotlin Inmutabe
 
-// EN LO POSIBLE DECLARAR VARIABLES COMO INMUTABLE
+
+// EN LO POSIBLE DECLARAR VARIABLES COMO INMUTABLE //
 //let IVA = 12;
 //const IVA = 12;
