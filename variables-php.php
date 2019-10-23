@@ -1,17 +1,19 @@
+<?php
 //tipos de variables primitivas en PHP
 /* PHP soporta 8 tipos de variables primitivas, estas son:
-boolean
-integer(entero)
-float
-string 
-object 
-array
-resource 
-null 
+boolean = valor de verdadero o falso de una variable.
+integer(entero) = valores sin decimales
+float = valores con cualquier numero de decimales, no se especifica la diferencia entre float y double
+string = un solo caracter o varios caracteres, no hay diferencia entre letra y palabra.
+object = cualquier otra variable que no sea las anteriores
+array = agrupacion de variables.
+resource = variable que hace referencia a un recurso externo. Variable especial.
+null = otra variable especial, representa a una sin valor.
 
 Los nombres de una variable deben tener $ antes de estas, seguido por el nombre que no puede ser ni nulo ni
 comenzar con un caracter especial. Se daran ejemplos a continuacion
 */
+?>
 
 <?php
 

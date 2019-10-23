@@ -1,4 +1,6 @@
+<?php
 // se debe primero iniciar el codigo
+?>
 
 <?php
 
