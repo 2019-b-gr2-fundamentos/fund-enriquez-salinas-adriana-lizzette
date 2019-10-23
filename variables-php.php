@@ -22,6 +22,19 @@ $dinero = 5.25;        //tipo float
 
 //se pueden arreglar los datos en "arrays" en donde se pueden agrupar a los datos
 
-$persona_array = array('nombre'=>$nombre ,'edad'=>$edad ,'estudiante'=>$estudiante ,'dinero'=>$dinero)
- 
+$persona_array = array('nombre'=>$nombre ,'edad'=>$edad ,'estudiante'=>$estudiante ,'dinero'=>$dinero);
+
+// usando "echo" se muestran los valores de las variables que se muestrtan al interpretar el codigo
+
+echo "string";
+echo $nombre;
+echo "integer";
+echo $edad;
+echo "boolean";
+echo $estudiante;
+echo "float";
+echo$dinero;
+
+var_dump($persona_array);
+
 ?>
