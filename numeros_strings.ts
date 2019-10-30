@@ -6,8 +6,8 @@
 //numerouno ->
 //numero_uno ->
 
-const numeroUno = 1;
-const numeroDos = 2;
+const Uno = 1;
+const Dos = 2;
 let resultado = 0;
 //SUMAR
 resultado = 1 + 2;
