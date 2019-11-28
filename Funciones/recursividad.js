@@ -44,11 +44,13 @@ function mainV() {
 }
 function productoCruz(vectores) {
     var tamanoV = (vectores[0].length);
-    var tamanoQueSeResta = (vectores[0].length);
     var suma = 0;
-    for (var indice = 0; indice <= tamanoV; indice++) {
-        var parcial = vectores[0][indice] * vectores[1][tamanoQueSeResta];
-        tamanoQueSeResta = tamanoQueSeResta - 1;
+    for (var indice = 0; indice <= vectores[0].length; indice++) {
+        var parcial = vectores[0][indice] * vectores[1][tamanoV];
+        console.log(vectores[0][indice]);
+        console.log(vectores[1][tamanoV]);
+        console.log(parcial);
+        tamanoV = tamanoV - 1;
         suma = parcial + suma;
     }
     console.log("" + [0, 0, 0, suma]);

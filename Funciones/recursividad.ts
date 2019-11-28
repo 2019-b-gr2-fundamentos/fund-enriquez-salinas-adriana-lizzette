@@ -69,11 +69,11 @@ productoCruz(vectores)
 
 function productoCruz(vectores: number [][]): number[]{
     let tamanoV= (vectores[0].length)
-    let tamanoQueSeResta = (vectores[0].length)
     let suma= 0
-    for(let indice = 0; indice <= tamanoV ; indice++){
-       const parcial = vectores[0][indice]*vectores[1][tamanoQueSeResta];
-        tamanoQueSeResta = tamanoQueSeResta-1;
+    for(let indice = 0; indice <= vectores[0].length ; indice++){
+       const parcial = vectores[0][indice]*vectores[1][tamanoV];
+       
+        tamanoV = tamanoV-1;
         suma= parcial +suma
     }
     console.log(`${[0,0,0,suma]}`);
