@@ -63,13 +63,13 @@ def opciones(opc=0):
 
 def valores(valor1=0,valor2=0,valor3=0,valor4=0):
     valor1 = float(input("Ingrese el primer valor: "))
-    valor2 = float(input("Ingr4ese el segundo valor: "))
+    valor2 = float(input("Ingrese el segundo valor: "))
     valor3 = float(input("Ingrese el tercer valor: "))
     valor4 = float(input("ingrese el cuarto valor: "))
     return (valor1,valor2,valor3,valor4)
 
 def errorOperacion(opcionError=0):
-    regresar = input("¿Quiere realizar una nueva operación [S/N]? ")
+    regresar = input("¿Quiere realizar UNA operacion adicional [S/N]? ")
     return (regresar)
 
 opc = opciones()
