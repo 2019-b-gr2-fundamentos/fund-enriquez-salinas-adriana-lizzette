@@ -1,27 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 import math
 #FUNCIONES DE LA CALCULADORA, TODAS LAS OPERACIONES SE REALIZAN CON MAXIMO 4 VARIABLES (SUPONGO QUE ES ALGO ACEPTABLE)
 #FUNCION QUE SUMA HASTA 4 VALORES
@@ -87,7 +65,7 @@ def valores(valor1=0,valor2=0,valor3=0,valor4=0):
     return (valor1,valor2,valor3,valor4)
 
 def errorOperacion(opcionError=0):
-    regresar = input("¿Quiere realizar una nueva operanción [S/N]? ")
+    regresar = input("¿Quiere realizar una nueva operación [S/N]? ")
     return (regresar)
 
 menuPrincipal = menu()
@@ -137,6 +115,8 @@ if(opc == 1):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 
     #PROBLEMA QUE LA LETRA SEA DISTINTA A S Y A N	
@@ -187,6 +167,8 @@ if(opc == 2):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 #TERCERA OPERACION MULTIPLICACION
 if(opc == 3):
@@ -232,6 +214,8 @@ if(opc == 3):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 #CUARTA OPERACION DIVISION
 if(opc == 4):
@@ -277,6 +261,8 @@ if(opc == 4):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 #QUINTA OP POTENCIA
 if(opc == 5):
@@ -322,6 +308,8 @@ if(opc == 5):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 #LA 6, RAIZ
 if(opc == 6):
@@ -367,6 +355,8 @@ if(opc == 6):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 # 7 OP, COSENO
 if(opc == 7):
@@ -412,6 +402,8 @@ if(opc == 7):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 #OCTAVA YAAA, SENO
 if(opc == 8):
@@ -458,6 +450,8 @@ if(opc == 8):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 #NOVENA, DORIME, TANGENTE
 if(opc == 9):
@@ -504,6 +498,8 @@ if(opc == 9):
             sumaNuevo = sumar(valor1,valor2,valor3,valor4)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+        else:
+            menuPrincipal()
 
 #DECIMA OPERACION, COMBINATORIO
 if(opc == 0):
@@ -545,28 +541,5 @@ if(opc == 0):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
         elif(opc == 1):
             sumaNuevo = sumar(valor1,valor2,valor3,valor4)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+        else:
+            menuPrincipal()
