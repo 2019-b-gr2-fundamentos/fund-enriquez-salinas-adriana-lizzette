@@ -54,7 +54,11 @@ def menu():
 
 #OPCIÓN DEL MENU
 def opciones(opc=0):
-    opcion = int(input("Selecione una operacion con el numero que indica el menu... "))
+    menu()
+    try:
+        opcion = int(input("Selecione una operacion con el numero que indica el menu... "))
+    except:
+        opciones()
     return opcion
 
 def valores(valor1=0,valor2=0,valor3=0,valor4=0):
@@ -68,7 +72,6 @@ def errorOperacion(opcionError=0):
     regresar = input("¿Quiere realizar una nueva operación [S/N]? ")
     return (regresar)
 
-menuPrincipal = menu()
 opc = opciones()
 
 #PRIMERA OPCION SUMA
@@ -87,7 +90,6 @@ if(opc == 1):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 1):
             valorTecladoNuevo = valores()
@@ -116,8 +118,9 @@ if(opc == 1):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
-
+            opciones()
+    else:
+            opciones()
 
     #PROBLEMA QUE LA LETRA SEA DISTINTA A S Y A N	
     # if(nuevaOperacion != "S" and "s" and "N" and "n"):
@@ -139,7 +142,6 @@ if(opc == 2):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 2):
             valorTecladoNuevo = valores()
@@ -168,7 +170,9 @@ if(opc == 2):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()
 
 #TERCERA OPERACION MULTIPLICACION
 if(opc == 3):
@@ -186,7 +190,6 @@ if(opc == 3):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 3):
             valorTecladoNuevo = valores()
@@ -215,7 +218,9 @@ if(opc == 3):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()
 
 #CUARTA OPERACION DIVISION
 if(opc == 4):
@@ -233,7 +238,6 @@ if(opc == 4):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 4):
             valorTecladoNuevo = valores()
@@ -262,7 +266,9 @@ if(opc == 4):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()
 
 #QUINTA OP POTENCIA
 if(opc == 5):
@@ -280,7 +286,6 @@ if(opc == 5):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 5):
             valorTecladoNuevo = valores()
@@ -309,7 +314,9 @@ if(opc == 5):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()
 
 #LA 6, RAIZ
 if(opc == 6):
@@ -327,7 +334,6 @@ if(opc == 6):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 6):
             valorTecladoNuevo = valores()
@@ -356,7 +362,9 @@ if(opc == 6):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()
 
 # 7 OP, COSENO
 if(opc == 7):
@@ -374,7 +382,6 @@ if(opc == 7):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 7):
             valorTecladoNuevo = valores()
@@ -403,7 +410,9 @@ if(opc == 7):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()
 
 #OCTAVA YAAA, SENO
 if(opc == 8):
@@ -422,7 +431,6 @@ if(opc == 8):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 8):
             valorTecladoNuevo = valores()
@@ -451,7 +459,9 @@ if(opc == 8):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()
 
 #NOVENA, DORIME, TANGENTE
 if(opc == 9):
@@ -471,7 +481,6 @@ if(opc == 9):
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
         menuNuevo = menu()
-        opc = opciones()
         if(opc == 9):
             valorTecladoNuevo = valores()
             val1Ope = valorTecladoNuevo[0]
@@ -499,7 +508,9 @@ if(opc == 9):
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()
 
 #DECIMA OPERACION, COMBINATORIO
 if(opc == 0):
@@ -515,7 +526,6 @@ if(opc == 0):
     #regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
     if(nuevaOperacion == "S" and "s"):
         print ("Se vuelve a mostrar el menu")
-        menuNuevo = menu()
         opc = opciones()
         if(opc == 0):
             valorTecladoNuevo = valores()
@@ -542,4 +552,6 @@ if(opc == 0):
         elif(opc == 1):
             sumaNuevo = sumar(valor1,valor2,valor3,valor4)
         else:
-            menuPrincipal()
+            opciones()
+    else:
+            opciones()

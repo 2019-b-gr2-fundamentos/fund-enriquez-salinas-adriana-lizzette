@@ -15,13 +15,16 @@ def menu ():
     print("\n")
 
 def opciones(opc=0):
-    opcion = int(input("Selecione lo que quiere realizar de acuerdo al numero mostrado en el Menu: "))
+    menu()
+    try:
+        opcion = int(input("Selecione lo que quiere realizar de acuerdo al numero mostrado en el Menu: "))
+    except:
+        opciones()
     return opcion
 def errorOperacion(opcionError=0):
     regresar = input("¿Quiere realizar una nueva operación [S/N]? ")
     return regresar    
 
-menuPrincipal = Menu
 opc = opciones()
 
 if(opc == 1):
@@ -66,7 +69,9 @@ if(opc == 1):
         elif(opc == 4):
             print("Ya no se puede editar el programa. Gracias por participar")
         else:
-            menu()
+            opciones()
+    else:
+            opciones()
 
 if(opc == 2):
     print("\n")
@@ -114,7 +119,9 @@ if(opc == 2):
         elif(opc == 4):
             print("Ya no se puede editar el programa. Gracias por participar")
         else:
-            menu()
+            opciones()
+    else:
+            opciones()
 
 if(opc == 3):
     print("\n")
@@ -161,10 +168,12 @@ if(opc == 3):
         elif(opc == 4):
             print("Ya no se puede editar el programa. Gracias por participar")
         else:
-            menu()
+            opciones()
+    else:
+            opciones()
 
 if(opc == 4):
     print("Ya no se puede editar el programa. Gracias por participar")
 if(opc != 1 & 2 & 3 & 4):
     print("Escoja una opcion correcta, Vuelva a intentarlo")
-    menu()
+    opciones()
