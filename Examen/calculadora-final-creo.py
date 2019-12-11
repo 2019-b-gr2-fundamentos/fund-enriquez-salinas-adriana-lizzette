@@ -101,22 +101,31 @@ if(opc == 1):
             print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: ") + str(restarNuevo)
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de la multiplicacion es: ") + str(multiplicacionNuevo)
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la division es: ") + str(divisionNuevo)
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: ") + str(potenciaNuevo)
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los cosenos es: ") + str(cosenoNuevo)
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de las tangentes es: ") + str(tangenteNuevo)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -153,22 +162,31 @@ if(opc == 2):
             print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 1):
             sumarNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de la multiplicacion es: ") + str(multiplicacionNuevo)
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: ") + str(potenciaNuevo)
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los cosenos es: ") + str(cosenoNuevo)
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de las tangentes es: ") + str(tangenteNuevo)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -201,22 +219,31 @@ if(opc == 3):
             print("El resultado de su multiplicacion es: " + str(multNuevo))
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 1):
             sumarNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: ") + str(potenciaNuevo)
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los cosenos es: ") + str(cosenoNuevo)
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de las tangentes es: ") + str(tangenteNuevo)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -249,22 +276,31 @@ if(opc == 4):
             print("El resultado de la division es: " + str(divNuevo))
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de su multiplicacion es: " + str(multiplicacionNuevo))
         elif(opc == 1):
             sumaNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: ") + str(potenciaNuevo)
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los cosenos es: ") + str(cosenoNuevo)
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de las tangentes es: ") + str(tangenteNuevo)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -297,22 +333,31 @@ if(opc == 5):
             print("El resultado de la potencia es: " + str(potNuevo))
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de su multiplicacion es: " + str(multiplicacionNuevo))
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la division es: " + str(divisionNuevo))
         elif(opc == 1):
             sumarNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los cosenos es: ") + str(cosenoNuevo)
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de las tangentes es: ") + str(tangenteNuevo)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -345,22 +390,31 @@ if(opc == 6):
             print("El resultado de las raices es: " + str(raizNuevo))
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de su multiplicacion es: " + str(multiplicacionNuevo))
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la division es: " + str(divisionNuevo))
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: " + str(potenciaNuevo))
         elif(opc == 1):
             sumaNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los cosenos es: ") + str(cosenoNuevo)
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -393,22 +447,31 @@ if(opc == 7):
             print("El resultado de los coseno es: " + str(cosNuevo))
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de su multiplicacion es: " + str(multiplicacionNuevo))
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la division es: " + str(divisionNuevo))
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: " + str(potenciaNuevo))
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 1):
             suamrNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -442,22 +505,31 @@ if(opc == 8):
             print("El resultado de los senos es: " + str(senoNuevo))
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de su multiplicacion es: " + str(multiplicacionNuevo))
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la division es: " + str(divisionNuevo))
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: " + str(potenciaNuevo))
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los coseno es: " + str(cosenoNuevo))
         elif(opc == 1):
             sumaNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -491,22 +563,31 @@ if(opc == 9):
             print("El resultado de las tangentes es: " + str(tanNuevo))
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de su multiplicacion es: " + str(multiplicacionNuevo))
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la division es: " + str(divisionNuevo))
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: " + str(potenciaNuevo))
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los coseno es: " + str(cosenoNuevo))
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: " + str(senoNuevo))
         elif(opc == 1):
             sumaNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         elif(opc == 0):
             combinatorioNuevo = combinatorio(valor1,valor2)
+            print("El resultado del combinatorio es: ") + str(combinatorioNuevo)
         else:
             opciones()
     else:
@@ -535,22 +616,31 @@ if(opc == 0):
             print("El resultado de la suma es: ") + str(combNuevo)
         elif(opc == 2):
             restarNuevo = restar(valor1,valor2,valor3,valor4)
+            print("El resultado de la resta es: " + str(restarNuevo))
         elif(opc == 3):
             multiplicacionNuevo = multiplicar(valor1,valor2,valor3,valor4)
+            print("El resultado de su multiplicacion es: " + str(multiplicacionNuevo))
         elif(opc == 4):
             divisionNuevo = dividir(valor1,valor2,valor3,valor4)
+            print("El resultado de la division es: " + str(divisionNuevo))
         elif(opc == 5):
             potenciaNuevo = potencia(valor1,valor2,valor3,valor4)
+            print("El resultado de la potencia es: " + str(potenciaNuevo))
         elif(opc == 6):
             raizCuadradaNuevo = raizCuadrada(valor1,valor2,valor3,valor4)
+            print("El resultado de las raices cuadradas es: ") + str(raizCuadradaNuevo)
         elif(opc == 7):
             cosenoNuevo = coseno(valor1,valor2,valor3,valor4)
+            print("El resultado de los coseno es: " + str(cosenoNuevo))
         elif(opc == 8):
             senoNuevo = seno(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: " + str(senoNuevo))
         elif(opc == 9):
             tangenteNuevo = tangente(valor1,valor2,valor3,valor4)
+            print("El resultado de los senos es: ") + str(senoNuevo)
         elif(opc == 1):
             sumaNuevo = sumar(valor1,valor2,valor3,valor4)
+            print("El resultado de la suma es: " + str(sumarNuevo))
         else:
             opciones()
     else:
