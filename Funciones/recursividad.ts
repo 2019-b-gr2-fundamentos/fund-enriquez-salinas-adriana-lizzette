@@ -18,10 +18,6 @@ function main(){
 
 
 
-
-
-
-
 function imprimir(){
     console.log('Hola')
 }
@@ -81,3 +77,75 @@ function productoCruz(vectores: number [][]): number[]{
 }
 mainV();
     //return[0, 0, 1*4-2*3 ]
+
+//Esciba un programa que verifique si dos matrices son iguales(matriz de dimension n*m)
+// n y m pueden ser iguales o distintas
+
+const vector1 =
+[
+    [1,2,3],
+    [1,2,3]
+];
+
+const vector2 = 
+[
+    [1,2,3],
+    [1,2,3]
+];
+
+const vector3 = 
+[
+    [0,1],
+    [1,0]
+]
+
+
+function igualdadM(vector1:number[][],vector2:number[][]){
+    let m1= vector1[0].length
+    let m2= vector2[0].length
+    let m3= vector3[0].length
+    let n1= vector1[1].length
+    let n2= vector2[1].length
+    let n3= vector3[1].length
+
+    if(m1==m2 && n1==n2){
+        console.log("Las matrices tienen la misma dimension, por lo que pueden ser iguales");
+    for(let i=0; i<=m1; i++){
+        for(let j=0; j<n1; j++)
+        if(vector1[i][j]==vector2[i][j])
+            console.log("Las matrices son iguales termino por termino");
+        else 
+            console.log("Las matrices no son iguales");
+    }
+    }else{
+    console.log("Las matrices no pueden ser iguales");
+    }
+
+    if(m1==m3 && n1==n3){
+        console.log("Las matrices tienen la misma dimension, por lo que pueden ser iguales");
+    for(let i=0; i<=m1; i++){
+        for(let j=0; j<n1; j++)
+        if(vector1[i][j]==vector3[i][j])
+            console.log("Las matrices son iguales termino por termino");
+        else 
+            console.log("Las matrices no son iguales");
+        }
+    }else{ 
+    console.log("Las matrices no pueden son iguales");
+    } 
+    if(m3==m2 && n3==n2){
+        console.log("Las matrices tienen la misma dimension, por lo que pueden ser iguales");
+    for(let i=0; i<=m1; i++){
+        for(let j=0; j<n1; j++)
+        if(vector2[i][j]==vector3[i][j])
+            console.log("Las matrices son iguales termino por termino");
+        else 
+            console.log("Las matrices no son iguales");
+        }
+    }else{ 
+    console.log("Las matrices no pueden son iguales");
+    }    
+}    
+igualdadM(vector1,vector2)
+igualdadM(vector1,vector3)
+igualdadM(vector2,vector3)
