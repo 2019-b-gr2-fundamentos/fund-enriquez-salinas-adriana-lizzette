@@ -19,18 +19,25 @@ function main(){
 
 async function obtenerDatosAnimalPerritoSincrono(){
     console.log('Inicio');
-    const edad: RespuestaEdad = await prompts({
-        type: 'number',
-        name: 'edad',
-        message: 'Puedes darme tu edad?'
-    });
-    const nombre: RespuestaNombre = await prompts({
-        type: 'text',
-        name: 'nombre',
-        message: 'Puedes darme tu nombre?'
-    });
-    console.log('Edad', edad.edad);
-    console.log('Nombre', nombre.nombre);
+    const preguntas = [
+        {
+            type: 'number',
+            name: 'edad',
+            message: 'Puedes darme tu edad?'
+        },
+        {
+            type: 'text',
+            name: 'nombre',
+            message: 'Puedes darme tu nombre?'
+        },
+        {
+            type: 'text',
+            name: 'cedula',
+            message: 'Puedes darme tu cedula?'
+        }
+    ]
+    const respuestaEdad = await prompts(preguntas);
+    console.log('Respuesta', respuestaEdad);
     console.log('Fin');
 }
 
