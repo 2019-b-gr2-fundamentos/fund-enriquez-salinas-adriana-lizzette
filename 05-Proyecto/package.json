@@ -1,0 +1,14 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "empezar": "(tsc index.ts ||echo) && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "libreria-ae": "^1.0.0"
+  }
+}
